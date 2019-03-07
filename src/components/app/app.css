@@ -1,16 +1,30 @@
-:global {
-  html,
-  body {
-    margin: 0;
-  }
-
-  * {
+body {
+    padding-right: 2%;
+    padding-left: 2%;
+    border: 0px;
+    margin: 0px;
+    background-image: url(http://www.zingerbugimages.com/backgrounds/blue-sky-background.jpg);
+    background-size: auto, cover;
     box-sizing: border-box;
-  }
 }
 
 .container {
   display: flex;
   flex-direction: column;
+  min-width: 320px;
   width: 100%;
+  height: 100%;
+  background-color: white;
+  align-items: stretch;
+}
+
+.header {
+    margin-top: 1%;
+    padding-right: 3%;
+    padding-left: 3%;
+    padding-top: 3%;
+    padding-bottom: 2%;
+    min-height: 10%;
+    max-height: 200px;
+    background-color: rgb(255,99,17);
 }
